@@ -4,12 +4,14 @@
     "version" : "1.0"
 }, {
     "id" : "point",
-    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:01:00Z",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>4 de Junio: Rio Arauca</b>",
+    "description" : "Las tropas libertadores pasaron el rio Arauca para introducirse a la provicia de Casanare.<img src='https://daniels737.files.wordpress.com/2015/11/nueva-granada.jpg?w=1000'>,
     "position" : {
         "epoch" : "2017-08-04T10:00:00Z",
         "cartographicDegrees" : [
-            0,   -74.06540125608444,4.628043374453956, 50,
-            60, -74.06540125608444,4.628043374453956, 50
+            0,-71.4327621459961,7.0318978927305835,10,
+            101,-71.4327621459961,7.0318978927305835,10
         ]
     },
     "point" : {
@@ -23,15 +25,38 @@
         "pixelSize" : 15
     }
 },{
-    "id" : "point2",
-    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:01:00Z",
-    "name" : "Centro Administrativo Distrital",
-    "description" : "Conocido en el bajo mundo como CAD",
+    "id" : "point1",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>11 de Junio: Tame</b>",
+    "description" : "Llegada de Bolivar y sus tropas a Tame, lugar donde el general Francisco de Paula Santander tenia su cuartel general.<img src='http://3.bp.blogspot.com/-qteomhT40mY/UpKepoJPZOI/AAAAAAAAilY/pzRrMM1vJH4/s1600/CasJft472.jpg'>",
     "position" : {
         "epoch" : "2017-08-04T10:00:00Z",
         "cartographicDegrees" : [
-            8, -74.081039,4.625475, 50,
-            60,-74.081039,4.625475, 50
+            11,-71.73291206359863,6.460304792110056,10,
+            101,-71.73291206359863,6.460304792110056,10
+        ]
+    },
+    "point" : {
+        "color" : {
+            "rgba" : [255, 255, 255, 128]
+        },
+        "outlineColor" : {
+            "rgba" : [255, 0, 0, 128]
+        },
+        "outlineWidth" : 3,
+        "pixelSize" : 15
+    }
+},
+{
+    "id" : "point2",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>27 de Junio: Paya</b>",
+    "description" : "Despues de tomarse la poblacion y vencer a los realistas que se encontraban en ella, Bolivar decide detener la marcha por falta de viveres y ganado<img src='http://www.venelogia.com/uploads/2012/Pisba.jpg'>",
+    "position" : {
+        "epoch" : "2017-08-04T10:00:00Z",
+        "cartographicDegrees" : [
+            21,-72.42247581481934, 5.6253818017588415,10,
+            101,-72.42247581481934, 5.6253818017588415,10
         ]
     },
     "point" : {
@@ -47,14 +72,14 @@
 },
 {
     "id" : "point3",
-    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:01:00Z",
-    "name" : "Puente Aranda",
-    "description" : "Deriva su nombre del puente de la antigua hacienda de <b>Juan Aranda</b> sobre el <a href='https://es.wikipedia.org/wiki/Puente_Aranda'>río Chinúa</a>, hoy llamado río San Francisco, construida a finales del siglo XVI.<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Avenida_de_Las_Américas%2C_Bogotá.JPG/250px-Avenida_de_Las_Américas%2C_Bogotá.JPG'>",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>6 de Julio: Socha</b>",
+    "description" : "Bolivar y sus hombres llegan a Socha, primer lugar habitado despues de atravesar el paramo. Alli son auxiliados por la gente de la poblacion.<img src='http://www.colombiaaprende.edu.co/html/productos/1685/articles-242136_recurso_3.png'>",
     "position" : {
         "epoch" : "2017-08-04T10:00:00Z",
         "cartographicDegrees" : [
-            22,-74.106917,4.626459, 50,
-            60,-74.106917,4.626459, 50
+            31,-72.69155502319336,5.997146060724685,10,
+            101,-72.69155502319336,5.997146060724685,10,
         ]
     },
     "point" : {
@@ -67,17 +92,148 @@
         "outlineWidth" : 3,
         "pixelSize" : 15
     }
-},
-{
+},{
     "id" : "point4",
-    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:01:00Z",
-    "name" : "Humedal La Vaca (costado Norte)",
-    "description" : "Uno de los pocos que subsisten en la zona",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>8 de Julio: Puente de Gameza</b>",
+    "description" : "Choque armado entre patriotas y realistas en el puente del rio Gameza.<img src='http://independenciadecolombia.net/wp-content/uploads/2014/09/Guerra-de-Independencia-de-Colombia-3.jpg'>",
     "position" : {
         "epoch" : "2017-08-04T10:00:00Z",
         "cartographicDegrees" : [
-            52, -74.160589, 4.627520, 50,
-            60, -74.160589, 4.627520, 50
+            41,-72.7543830871582,5.5075794540701155,10,
+            101,-72.7543830871582,5.5075794540701155,10,
+        ]
+    },
+    "point" : {
+        "color" : {
+            "rgba" : [255, 255, 255, 128]
+        },
+        "outlineColor" : {
+            "rgba" : [255, 0, 0, 128]
+        },
+        "outlineWidth" : 3,
+        "pixelSize" : 15
+    }
+},{
+    "id" : "point5",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>20 de Julio: Bonza</b>",
+    "description" : "El ejercito libertador estaba al frente de los realistas. Bolivar antes de iniciar batalla,quiso primero por si mismo realizar el reconocimiento del terreno y exminar su situacion.<img src='http://www.darloup.com/forum/images/pix/vineta1.jpg'>",
+    "position" : {
+        "epoch" : "2017-08-04T10:00:00Z",
+        "cartographicDegrees" : [
+            51,-73.05255889892578,5.814293920183715,10,
+            101,-73.05255889892578,5.814293920183715,10,
+        ]
+    },
+    "point" : {
+        "color" : {
+            "rgba" : [255, 255, 255, 128]
+        },
+        "outlineColor" : {
+            "rgba" : [255, 0, 0, 128]
+        },
+        "outlineWidth" : 3,
+        "pixelSize" : 15
+    }
+},{
+    "id" : "point6",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>25 de Julio: Pantano de Vargas</b>",
+    "description" : "Batalla del Pantano de Vargas que dio a los patriotas la victoria gracias a la intervencion del Coronel Rondon y sus lanceros.<img src='http://socialtour.co/blogicon/26395/master/1461540722.jpg'>",
+    "position" : {
+        "epoch" : "2017-08-04T10:00:00Z",
+        "cartographicDegrees" : [
+            61,-73.07155430316925,5.738628749399184,10,
+            101,-73.07155430316925,5.738628749399184,10,
+        ]
+    },
+    "point" : {
+        "color" : {
+            "rgba" : [255, 255, 255, 128]
+        },
+        "outlineColor" : {
+            "rgba" : [255, 0, 0, 128]
+        },
+        "outlineWidth" : 3,
+        "pixelSize" : 15
+    }
+},{
+    "id" : "point7",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>3 de Agosto: Paipa</b>",
+    "description" : "En la noche, los patriotas cruzaron el rio Sogamoso y acamaparon a media legua del enemigo.<img src='https://static.iris.net.co/semana/upload/images/2009/10/24/213971_202524_1.jpg'>",
+    "position" : {
+        "epoch" : "2017-08-04T10:00:00Z",
+        "cartographicDegrees" : [
+            71,-73.11706066131592,5.7806922963205345,10,
+            101,-73.11706066131592,5.7806922963205345,10,
+        ]
+    },
+    "point" : {
+        "color" : {
+            "rgba" : [255, 255, 255, 128]
+        },
+        "outlineColor" : {
+            "rgba" : [255, 0, 0, 128]
+        },
+        "outlineWidth" : 3,
+        "pixelSize" : 15
+    }
+},{
+    "id" : "point8",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>5 de Agosto: Tunja</b>",
+    "description" : "Entrada de los libertadores a la ciudad de Tunja, haciendo prisioneros a los pocos soldados de la guarnicion que aun quedaban.<img src='http://www.colombia.co/wp-content/uploads/2013/08/batallaboyaca_dt-3.jpg'>",
+    "position" : {
+        "epoch" : "2017-08-04T10:00:00Z",
+        "cartographicDegrees" : [
+            81,-73.35880279541016,5.539274788807716,10,
+            101,-73.35880279541016,5.539274788807716,10,
+        ]
+    },
+    "point" : {
+        "color" : {
+            "rgba" : [255, 255, 255, 128]
+        },
+        "outlineColor" : {
+            "rgba" : [255, 0, 0, 128]
+        },
+        "outlineWidth" : 3,
+        "pixelSize" : 15
+    }
+},{
+    "id" : "point9",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>7 de Agosto: Puente de Boyaca</b>",
+    "description" : "Derrota el coronel Jose Maria Barreiro por las fuerzas pratioras comandadas por Simon Bolivar en la batalla del puente de Boyaca.<img src='http://www.destinoseguro.net/nuevositio/sites/default/files/imagecache/image_infovias_full_node/BOYACA%20--%20PUENTE.JPG'>",
+    "position" : {
+        "epoch" : "2017-08-04T10:00:00Z",
+        "cartographicDegrees" : [
+            91,-73.43061357736588,5.4508509493261155,10,
+            101,-73.43061357736588,5.4508509493261155,10,
+        ]
+    },
+    "point" : {
+        "color" : {
+            "rgba" : [255, 255, 255, 128]
+        },
+        "outlineColor" : {
+            "rgba" : [255, 0, 0, 128]
+        },
+        "outlineWidth" : 3,
+        "pixelSize" : 15
+    }
+},{
+    "id" : "point10",
+    "availability" : "2017-08-04T10:00:00Z/2017-08-04T10:05:00Z",
+    "name" : "<b>10 de Agosto: Santafe</b>",
+    "description" : "Bolivar entra a Santafe donde es recibido por las aclamaciones victoriosas.<img src='http://3.bp.blogspot.com/-qteomhT40mY/UpKepoJPZOI/AAAAAAAAilY/pzRrMM1vJH4/s1600/CasJft472.jpg'>",
+    "position" : {
+        "epoch" : "2017-08-04T10:00:00Z",
+        "cartographicDegrees" : [
+            101,-74.102783203125,4.631179340411012,10
+            101,-74.102783203125,4.631179340411012,10,
         ]
     },
     "point" : {
@@ -91,5 +247,4 @@
         "pixelSize" : 15
     }
 }
-
 ]

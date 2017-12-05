@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Recorrido por los Edificios</title>
+        <title>Recorrido Libertador 1819</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="../../Build/Cesium/Cesium.js"></script>
@@ -22,8 +22,18 @@ and open the template in the editor.
             var visor = new Cesium.Viewer('cesiumContainer');
             var matrizColores = {};
 
-            agregarGeojson('map.geojson', true);
-            agregarGeojson('http://localhost/Cesium/Apps/recorrido/sedeCentral.geojson', true);
+            agregarGeojson('4Junio.geojson', true);
+            agregarGeojson('11Junio.geojson', true);
+            agregarGeojson('27Junio.geojson', true);
+            agregarGeojson('6Julio.geojson', true);
+            agregarGeojson('8Julio.geojson', true);
+            agregarGeojson('20Julio.geojson', true);
+            agregarGeojson('25Julio.geojson', true);
+            agregarGeojson('3Agosto.geojson', true);
+            agregarGeojson('5Agosto.geojson', true);
+            agregarGeojson('7Agosto.geojson', true);
+            agregarGeojson('10Agosto.geojson', true);
+            
             agregarCZMLAnimado("ruta.czml");
             agregarCZML("puntos.czml");
 
@@ -132,9 +142,48 @@ and open the template in the editor.
                 
                 if(!carga[segundos]){
                     switch(segundos){
-
-                        case 13:
-                            agregarGeojson('corferias.geojson',false);
+                        case 0:
+                            agregarGeojson('4Junio.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 11:
+                            agregarGeojson('11Junio.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 21:
+                            agregarGeojson('27Junio.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 31:
+                            agregarGeojson('6Julio.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 41:
+                            agregarGeojson('8Julio.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 51:
+                            agregarGeojson('20Julio.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 61:
+                            agregarGeojson('25Julio.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 71:
+                            agregarGeojson('3Agosto.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 81:
+                            agregarGeojson('5Agosto.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 91:
+                            agregarGeojson('7Agosto.geojson',false);
+                            carga[segundos]=true;
+                            break;
+                        case 101:
+                            agregarGeojson('10Agosto.geojson',false);
                             carga[segundos]=true;
                             break;
                     }
