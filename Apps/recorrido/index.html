@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Recorrido por los Edificios</title>
+        <title>Recorrido Libertador 1819</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="../../Build/Cesium/Cesium.js"></script>
@@ -20,13 +20,22 @@ and open the template in the editor.
 
             var visor = new Cesium.Viewer('cesiumContainer');
             var miDataSource = new Cesium.GeoJsonDataSource();
-
-            var promesa = miDataSource.load('map.geojson');
             
+            var promesa = miDataSource.load('4Junio.geojson');
+            var promesa = miDataSource.load('11Junio.geojson');
+            var promesa = miDataSource.load('27Junio.geojson');
+            var promesa = miDataSource.load('6Julio.geojson');
+            var promesa = miDataSource.load('8Julio.geojson');
+            var promesa = miDataSource.load('20Julio.geojson');
+            var promesa = miDataSource.load('25Julio.geojson');
+            var promesa = miDataSource.load('3Agosto.geojson');
+            var promesa = miDataSource.load('5Agosto.geojson');
+            var promesa = miDataSource.load('7Agosto.geojson');
+            var promesa = miDataSource.load('10Agosto.geojson');
             
             
             var posicionEnTerreno = [];
-
+            
             promesa.then(function (miDataSource) {
                 visor.dataSources.add(miDataSource);
                 visor.zoomTo(miDataSource);
